@@ -24,7 +24,8 @@ body,html{height: 100%;}
 	}
 #introducao
 {
-	 padding-top: 190px;
+	 padding-top: 180px;
+	padding-bottom: 10px ;
 }
 
 /* SOBRE */
