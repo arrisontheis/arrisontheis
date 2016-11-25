@@ -28,13 +28,14 @@ body,html{height: 100%;}
 }
 
 /* SOBRE */
-#sobre
+#habilidades
 {
 	background-color: #222;
-	height: 100%;
+	height: 100% auto;
 	padding-top: 20px;
+	padding-bottom: 20px;
+	
 }
-	#icones-sobre{padding-top: 30px;}
 
 /* PORTFOLIO */
 #portfolio
