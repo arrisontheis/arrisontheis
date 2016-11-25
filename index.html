@@ -1,120 +1,98 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="https://arrisontheis.github.io/css/style.min.css">
-    <link href="css/bootstrap.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="https://arrisontheis.github.io/css/font-awesome.min.css">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="arrisontheis.github.io/css/font-awesome.min.css">
+	<link rel="stylesheet" type="text/css" href="arrisontheis.github.io/css/semantic.min.css">
+	<link rel="stylesheet" type="text/css" href="arrisontheis.github.io/css/style.css">
+	<title>Arrison Theis</title>
+</head>
+	<body>
 
-    <!-- FONTES -->
-    <link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Cuprum|Titillium+Web" rel="stylesheet">
-
-    <title>Arrison Theis | Desenvolvedor Front End</title>
-
-    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
-    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-    <!--[if lt IE 9]>
-      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
-      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-    <![endif]-->
-  </head>
-  <body>
-
-    <header id="header" class="">
-      <nav class="navbar navbar-default cl-effect-4">
-        <div class="container">
-          <!-- Brand and toggle get grouped for better mobile display -->
-          <div class="navbar-header">
-            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-              <span class="sr-only">Toggle navigation</span>
-              <span class="glyphicon glyphicon-menu-hamburger text-white"></span>
-            </button>
-          </div>
-
-          <!-- Collect the nav links, forms, and other content for toggling  d-->
-          <div class="collapse navbar-collapse navbar-right" id="bs-example-navbar-collapse-1">
-            <ul class="nav navbar-nav">
-              <li class="active"><a class="cl-effect-4" href="#">Home <span class="sr-only">(current)</span></a></li>
-              <li><a class="scroll-link cl-effect-4" data-id="sobre" href="#">Habilidades</a></li>
-              <li><a class="scroll-link cl-effect-4" data-id="portfolio" href="#">Portfólio</a></li>
-              <li><a class="scroll-link cl-effect-4" data-id="contato" href="#">Contato</a></li>
-              
-            </ul>
-          </div><!-- /.navbar-collapse -->
-        </div><!-- /.container-fluid -->
-      </nav>
-
-    <div class="introducao text-center">
-      <h1 class="text-white">Arrison Theis</h1>
-      <h3 class="text-white">Desenvolvedor Front End</h3>
-      <a href="#sobre" data-id="sobre" class="scroll-link"><span class="glyphicon glyphicon-chevron-down text-white"></span></a>
-    </div>
-    </header>
+	<header id="cabecalho">
+		<div class="ui inverted segment">
+		  <div class="ui inverted secondary menu">
+		    <a class="active item" href="#">Home </a>
+		    <a class="item" href="#sobre">Sobre </a>
+		    <a class="item" href="#portfolio">Portfolio </a>
+		    <a class="item" href="#contato">Contato </a>
+		  </div>
+		</div>
 
 
-    <section id="sobre">
-      <div class="col-lg-12 text-center">
-        <h1 class="text-white">Habilidades</h1>
-        <div class="col-lg-4 col-xs-12">
-            <i class="fa fa-html5 fa-5x text-white" aria-hidden="true"></i>
-            <h3 class="text-white">HTML5</h3>
-        </div>
-        <div class="col-lg-4 col-xs-12">
-          <i class="fa fa-css3 fa-5x text-white" aria-hidden="true"></i>
-          <h3 class="text-white">CSS3</h3>
-        </div>
-        <div class="col-lg-4 col-xs-12">
-          <i class="glyphicon glyphicon-bold fa-5x text-white" aria-hidden="true"></i>
-          <h3 class="text-white">BOOTSTRAP</h3>
-        </div>
-        <div class="col-lg-4 col-xs-12">
-          <i class="fa fa-git fa-5x text-white" aria-hidden="true"></i>
-          <h3 class="text-white">GIT</h3>
-        </div>
-        <div class="col-lg-4 col-xs-12">
-          <i class="fa fa-github fa-5x text-white" aria-hidden="true"></i>
-          <h3 class="text-white">GITHUB</h3>
-        </div>
-        <div class="col-lg-4 col-xs-12">
-          <i class="fa fa-wordpress fa-5x text-white" aria-hidden="true"></i>
-          <h3 class="text-white">WORDPRESS</h3>
-        </div>
-        
-      </div> <!--./ col-lg-12 -->
-    </section>
+		<div id="introducao">
+			<div class="ui container text-center text-white">	
+				<h1><i class="fa fa-code" aria-hidden="true"></i> Arrison Theis</h1>
+				<h3>Desenvolvedor Front End</h3>
+				<a href="#sobre" class="ui inverted black basic button">Saiba Mais</a>
+			</div>
+		</div>
+	</header>
 
-    <section id="portfolio">
-      <h1 class="text-white text-center">Portfolio</h1>
-      </section>
+	<section id="sobre" class="text-center text-white">
+		<h1>Sobre</h1>
 
-    <section id="contato">
-      <h1 class="text-white text-center">Contato</h1>
-    </section>
+		<div class="ui grid" id="icones-sobre">
+		  <div class="three column row text-white">
+		    <div class="column">
+		    	<i class="fa fa-html5 fa-5x text-white" aria-hidden="true"></i>
+		    	<h3>HTML5</h3>
+		    </div>
+		    <div class="column">
+		    	<i class="fa fa-css3 fa-5x text-white" aria-hidden="true"></i>
+		    	<h3>CSS3</h3>
+		    </div>
+		    <div class="column">
+		    	<i class="fa fa-bold fa-5x text-white" aria-hidden="true"></i>
+		    	<h3>BOOTSTRAP</h3>
+		    </div>
+		    <div class="column">
+		    	<i class="fa fa-git fa-5x text-white" aria-hidden="true"></i>
+		    	<h3>GIT</h3>
+		    </div>
+
+		    <div class="column">
+		    	<i class="fa fa-github fa-5x text-white" aria-hidden="true"></i>
+		    	<h3>GITHUB</h3>
+		    </div>
+
+		    <div class="column">
+		    	<i class="fa fa-wordpress fa-5x text-white" aria-hidden="true"></i>
+		    	<h3>WORDPRESS</h3>
+		    </div>
+		  </div>
+		</div><!-- ./ ui grid -->
+
+	
+
+
+	</section>
+
+	<section id="portfolio" class="text-center text-white">
+		<h1>Portfolio</h1>
+
+		<a href="#" class="ui large bordered image">
+		  <img class="img-efeito" src="arrisontheis.github.io/img/portfolio-1.jpg">
+		</a>
+		<a href="#" class="ui large bordered image">
+		  <img class="img-efeito" src="arrisontheis.github.io/img/portfolio-2.jpg">
+		</a>
+		<a href="#" class="ui large bordered image">
+		  <img class="img-efeito" src="arrisontheis.github.io/img/portfolio-3.jpg">
+		</a>
+		<a target="blank" href="http://suitskingdom.github.io" class="ui large bordered image">
+		  <img class="img-efeito" src="arrisontheis.github.io/img/sk2.png">
+		</a>
+	</section>
+
+	<section id="contato" class="text-center text-white">
+		<h1>Contato</h1>
+	</section>
 
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-    <!-- Include all compiled plugins (below), or include individual files as needed -->
-    <script src="js/bootstrap.min.js"></script>
-
-    <script type="text/javascript" src="js/scroll.js" ></script>
-<script src="js/jquery.js"></script>
-  </body>
+	<script type="text/javascript" src="arrisontheis.github.io/js/semantic.min.js" ></script>
+	</body>
 </html>
