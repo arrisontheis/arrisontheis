@@ -24,8 +24,7 @@ body,html{height: 100%;}
 	}
 #introducao
 {
-	 padding-top: 180px;
-	padding-bottom: 10px ;
+	 padding-top: 190px;
 }
 
 /* SOBRE */
@@ -41,7 +40,7 @@ body,html{height: 100%;}
 /* PORTFOLIO */
 #portfolio
 {
-	background-color: #333;
+	background-color: #1A3742;
 	height: 100% auto;	
 	padding-top: 20px;
 	padding-bottom: 60px;
@@ -50,9 +49,10 @@ body,html{height: 100%;}
 /* CONTATO */
 #contato
 {
-	background-color: #1A3742;
-	height: 100%;
-	padding-top: 20px;
+	background-color: #f0f0f0 ;
+	height: 100% auto;
+	padding-top: 40px;
+	padding-bottom: 40px;
 }
 
 /* ESTILIZAÇAO DO MENU*/
